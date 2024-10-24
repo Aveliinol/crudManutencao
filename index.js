@@ -1,4 +1,5 @@
 const prompt = require("prompt-sync")();
+const validator = require("validator")
 
 const { criarManutencao } = require("./manutencao/criarManutencao")
 const { lerManutencao } = require("./manutencao/lerManutencao")
@@ -17,6 +18,6 @@ atualizarManutencao("4001952", "Serviço concluido" );
 
 lerManutencao();  
 
-deletarManutencao("4001953");
+// deletarManutencao("4001953");
 
-lerManutencao();
+// lerManutencao();
